@@ -4,9 +4,9 @@ void main() {
   runApp(
     Scaffold(
       appBar: AppBar(
-        title: Text("Flutter SQLite"),
+        title: const Text("Flutter SQLite"),
       ),
-      body: Center(
+      body: const Center(
         child: Text("Body"),
       ),
     ),
